@@ -1,3 +1,4 @@
+https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file
 [![GitHub Streak](https://streak-stats.demolab.com/?user=moppy626)](https://git.io/streak-stats)
 
 <a href="https://www.gitanimals.org/en-US?utm_medium=image&utm_source=moppy626&utm_content=farm">
