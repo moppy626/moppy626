@@ -1,6 +1,4 @@
-<div align="center">
-   <img src="https://capsule-render.vercel.app/api? type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
-</div>
+[![GitHub Streak](https://streak-stats.demolab.com/?user=moppy626)](https://git.io/streak-stats)
 
 <a href="https://www.gitanimals.org/en-US?utm_medium=image&utm_source=moppy626&utm_content=farm">
 <img
