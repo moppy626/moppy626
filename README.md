@@ -1,11 +1,6 @@
-https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file
-[![GitHub Streak](https://streak-stats.demolab.com/?user=moppy626)](https://git.io/streak-stats)
-
-<a href="https://www.gitanimals.org/en-US?utm_medium=image&utm_source=moppy626&utm_content=farm">
-<img
-  src="https://render.gitanimals.org/farms/moppy626"
-  width="600"
-  height="300"
-/>
-</a>
-  
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="dot-no-oheya/card-dark-still.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="dot-no-oheya/card-light-still.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="dot-no-oheya/card-dark.svg">
+  <img alt="ドットのおへや" src="dot-no-oheya/card-light.svg">
+</picture>
