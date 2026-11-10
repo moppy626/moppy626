@@ -1,0 +1,29 @@
+name: ドットのおへや
+
+on:
+  schedule:
+    - cron: '17 15 * * *' # 毎日 00:17 (日本時間)
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/dot-no-oheya.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dot-no-oheya
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: moppy626/dot-no-oheya@v1
+        with:
+          character: turnip # turnip / sunflower / cactus
+          pet-name: ''
+          language: en # en (英語) / ja (日本語)
+          # 非公開リポジトリも数えるときは、このシークレットにトークンを登録します。
+          github-token: ${{ secrets.DOT_NO_OHEYA_TOKEN || github.token }}
