@@ -6,13 +6,13 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - .github/workflows/dot-no-oheya.yml
+      - .github/workflows/tiny-pixel-room.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: dot-no-oheya
+  group: tiny-pixel-room
 
 jobs:
   card:
@@ -20,10 +20,10 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
-      - uses: moppy626/dot-no-oheya@v1
+      - uses: moppy626/tiny-pixel-room@v1
         with:
           character: turnip # turnip / sunflower / cactus
-          pet-name: ''
+          pet-name: 'サボ子'
           language: ja # en (英語) / ja (日本語)
           # 非公開リポジトリも数えるときは、このシークレットにトークンを登録します。
           github-token: ${{ secrets.DOT_NO_OHEYA_TOKEN || github.token }}
