@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: moppy626/tiny-pixel-room@v1
         with:
-          character: turnip # turnip / sunflower / cactus
+          character: cactus # turnip / sunflower / cactus
           pet-name: 'サボ子'
           language: ja # en (英語) / ja (日本語)
           # 非公開リポジトリも数えるときは、このシークレットにトークンを登録します。
