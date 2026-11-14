@@ -20,8 +20,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
-      # - uses: moppy626/tiny-pixel-room@v1
-      - uses: moppy626/tiny-pixel-room@feature/fix_totalling_contributions
+      - uses: moppy626/tiny-pixel-room@v1
         with:
           character: cactus # turnip / sunflower / cactus
           pet-name: 'サボ子'
