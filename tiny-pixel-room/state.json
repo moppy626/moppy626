@@ -2,9 +2,9 @@
   "version": 1,
   "character": "cactus",
   "since": "2026-11-13",
-  "maxExp": 8,
+  "maxExp": 15,
   "privateCommits": {
-    "count": 210,
+    "count": 217,
     "reading": "all",
     "userId": "U_kgDOC7aevQ"
   }
